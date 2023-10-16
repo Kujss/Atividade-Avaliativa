@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+
+  int raio;
+  int altura;
+  int volume;
+
+  printf("Coloque o valor desejado do raio do cilindro: ");
+  scanf("%d", &raio);
+
+  printf("Coloque o valor desejado da altura do cilindro: ");
+  scanf("%d", &altura);
+
+  volume = 3.1414592 * (raio * raio) * altura;
+
+  printf("O valor do volume do seu cilindro é: %dcm!", volume);
+
+  
+  
+}
