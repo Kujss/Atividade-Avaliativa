@@ -1,0 +1,65 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+
+  int numeros;
+
+  printf("Coloque o número de 1 a 12: ");
+  scanf("%d", &numeros);
+
+  switch(numeros) {
+    case 1:
+      printf("Janeiro, 30 dias.");
+    break;
+
+    case 2:
+      printf("Fevereiro, 28 dias.");
+    break;
+
+    case 3:
+      printf("Março, 30 dias.");
+    break;
+
+    case 4:
+      printf("Abril, 31 dias.");
+    break;
+
+    case 5:
+      printf("Maio, 30 dias.");
+    break;
+
+    case 6:
+      printf("Junho, 31 dias.");
+    break;
+
+    case 7:
+      printf("Julho, 30 dias.");
+    break;
+
+    case 8:
+      printf("Agosto, 31 dias.");
+    break;
+
+    case 9:
+      printf("Setembro, 30 dias.");
+    break;
+
+    case 10:
+      printf("Outubro, 31 dias.");
+    break;
+
+    case 11:
+      printf("Novembro, 30 dias.");
+    break;
+
+    case 12:
+      printf("Dezembro, 31 dias.");
+    break;
+
+    default:
+      printf("Número inválido, insira um número de 1 a 12.");
+    
+  
+}
+}
